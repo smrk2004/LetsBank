@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LetsBank.Core\LetsBank.Core.csproj" />
+    <ProjectReference Include="..\LetsBank.Data\LetsBank.Data.csproj" />
+    <ProjectReference Include="..\LetsBank.Infrastructure\LetsBank.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
