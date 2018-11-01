@@ -8,8 +8,4 @@
     <ProjectReference Include="..\LetsBank.Core\LetsBank.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
