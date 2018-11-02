@@ -4,6 +4,6 @@ namespace LetsBank.Core.Entities
 {
 	public class BaseEntity
 	{
-		public Guid Id { get; set; }
+		public Guid Id { get; set; } = Guid.Empty;
 	}
 }

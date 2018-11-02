@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using LetsBank.Core;
 using LetsBank.Core.Entities;
+using LetsBank.Core.Repositories;
 
 namespace LetsBank.Data.Repositories
 {
-	public class AccountRepository : IRepository<Account>
+	public class AccountRepository : IAccountRepository
 	{
 		public Account Get(Guid id)
 		{
@@ -22,7 +22,7 @@ namespace LetsBank.Data.Repositories
 
 		public Account Add(Account user)
 		{
-			user.Id = new Guid();
+			user.Id = Guid.NewGuid();
 			ApplicationDbContext.Accounts.Add(user);
 
 			return user;
@@ -46,6 +46,12 @@ namespace LetsBank.Data.Repositories
 			{
 				ApplicationDbContext.Accounts.Remove(toDelete);
 			}
+		}
+
+		public Account FindByUserId(Guid id)
+		{		
+			return ApplicationDbContext.Accounts
+										.FirstOrDefault(acc => acc.UserId == id);
 		}
 	}
 }

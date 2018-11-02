@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using LetsBank.Core;
 using LetsBank.Core.Entities;
+using LetsBank.Core.Repositories;
 
 namespace LetsBank.Data.Repositories
 {
-	public class TransactionRecordRepository : IRepository<TransactionRecord>
+	public class TransactionRecordRepository : ITransactionRecordRepository
 	{
 		public TransactionRecord Get(Guid id)
 		{
@@ -22,7 +22,7 @@ namespace LetsBank.Data.Repositories
 
 		public TransactionRecord Add(TransactionRecord r)
 		{
-			r.Id = new Guid();
+			r.Id = Guid.NewGuid();
 			ApplicationDbContext.TransactionRecords.Add(r);
 
 			return r;
@@ -46,6 +46,14 @@ namespace LetsBank.Data.Repositories
 			{
 				ApplicationDbContext.TransactionRecords.Remove(toDelete);
 			}
+		}
+
+		public IEnumerable<TransactionRecord> TransactionHistoryByAccountId(Guid id, int recentRecsCountToFetch)
+		{
+			return ApplicationDbContext.TransactionRecords
+										.Where(r => r.AccountId == id)
+										.OrderByDescending(r => r.Date)
+										.Take(recentRecsCountToFetch);
 		}
 	}
 }

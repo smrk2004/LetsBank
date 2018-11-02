@@ -1,10 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace LetsBank.Core.Entities
 {
 	public class Account : BaseEntity
 	{
 		public int Balance { get; set; } = 0;
-		public int UserId { get; set; }
+
+		[Required]
+		public Guid UserId { get; set; }
 	}
 }

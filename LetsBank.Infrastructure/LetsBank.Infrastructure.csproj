@@ -9,8 +9,4 @@
     <ProjectReference Include="..\LetsBank.Data\LetsBank.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>
