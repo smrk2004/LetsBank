@@ -202,9 +202,9 @@ namespace LetsBank.ConsoleApp
 			var amountString = Console.ReadLine();
 			Console.WriteLine();
 
-			var amount = 0;
-			int.TryParse(amountString, out amount);
-			if (amount == 0)
+			var amount = 0.0m;
+			decimal.TryParse(amountString, out amount);
+			if (amount == 0.0m)
 			{
 				Console.WriteLine("Invalid Deposit Amount entered!");
 			}
@@ -232,9 +232,9 @@ namespace LetsBank.ConsoleApp
 			var amountString = Console.ReadLine();
 			Console.WriteLine();
 
-			var amount = 0;
-			int.TryParse(amountString, out amount);
-			if (amount == 0)
+			var amount = 0.0m;
+			decimal.TryParse(amountString, out amount);
+			if (amount == 0.0m)
 			{
 				Console.WriteLine("Invalid Withdrawal Amount entered!");
 			}

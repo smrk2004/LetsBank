@@ -43,10 +43,10 @@ namespace LetsBank.Infrastructure.Services
 			return accountRepo.FindByUserId(id);
 		}
 
-		public bool RecordDeposit(Account account, Guid userId, int amount)
+		public bool RecordDeposit(Account account, Guid userId, decimal amount)
 		{
 			// Check if deposit should be permitted
-			if (!EntityValidators.AccountIsValid(account) || account.UserId == Guid.Empty || account.UserId != userId || amount <= 0)
+			if (!EntityValidators.AccountIsValid(account) || account.UserId == Guid.Empty || account.UserId != userId || amount <= 0.0m)
 			{
 				return false;
 			}
@@ -69,10 +69,10 @@ namespace LetsBank.Infrastructure.Services
 			return true;
 		}
 
-		public bool RecordWithdrawal(Account account, Guid userId, int amount)
+		public bool RecordWithdrawal(Account account, Guid userId, decimal amount)
 		{
 			// Check if withdrawal should be permitted
-			if (!EntityValidators.AccountIsValid(account) || account.UserId == Guid.Empty || account.UserId != userId || account.Balance < amount || amount <= 0)
+			if (!EntityValidators.AccountIsValid(account) || account.UserId == Guid.Empty || account.UserId != userId || account.Balance < amount || amount <= 0.0m)
 			{
 				return false;
 			}
@@ -95,7 +95,7 @@ namespace LetsBank.Infrastructure.Services
 			return true;
 		}
 
-		public int CheckBalance(Guid userId)
+		public decimal CheckBalance(Guid userId)
 		{
 			return GetAccountByUserId(userId).Balance;
 		}

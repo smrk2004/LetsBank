@@ -5,7 +5,7 @@ namespace LetsBank.Core.Entities
 {
 	public class Account : BaseEntity
 	{
-		public int Balance { get; set; } = 0;
+		public decimal Balance { get; set; } = 0.0m;
 
 		[Required]
 		public Guid UserId { get; set; }
