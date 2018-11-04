@@ -1,6 +1,6 @@
 using System;
 
-namespace LetsBank.Models
+namespace LetsBank.Web.Models
 {
     public class ErrorViewModel
     {

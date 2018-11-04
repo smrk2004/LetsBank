@@ -1,0 +1,238 @@
+2018-11-04 00:00:00.094 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/TransactionHistory?_=1541303992184  
+2018-11-04 00:00:00.109 -04:00 [Information] Route matched with "{action = \"TransactionHistory\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)"
+2018-11-04 00:00:00.119 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:00.124 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:00.129 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:00.160 -04:00 [Information] Executed DbCommand ("26"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:00.165 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 36.5596ms.
+2018-11-04 00:00:00.169 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType4`1[[System.Collections.Generic.IList`1[[LetsBank.Core.Models.TxnRecordModel, LetsBank.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:00.175 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" in 60.4834ms
+2018-11-04 00:00:00.181 -04:00 [Information] Request finished in 87.3787ms 200 application/json; charset=utf-8
+2018-11-04 00:00:00.272 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/TransactionHistory?_=1541303992185  
+2018-11-04 00:00:00.284 -04:00 [Information] Route matched with "{action = \"TransactionHistory\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)"
+2018-11-04 00:00:00.289 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:00.295 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:00.301 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:00.308 -04:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:00.314 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 13.6131ms.
+2018-11-04 00:00:00.319 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType4`1[[System.Collections.Generic.IList`1[[LetsBank.Core.Models.TxnRecordModel, LetsBank.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:00.324 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" in 35.2913ms
+2018-11-04 00:00:00.331 -04:00 [Information] Request finished in 59.6666ms 200 application/json; charset=utf-8
+2018-11-04 00:00:00.468 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/TransactionHistory?_=1541303992186  
+2018-11-04 00:00:00.475 -04:00 [Information] Route matched with "{action = \"TransactionHistory\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)"
+2018-11-04 00:00:00.494 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:00.499 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:00.503 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:00.525 -04:00 [Information] Executed DbCommand ("13"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:00.531 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 27.02ms.
+2018-11-04 00:00:00.535 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType4`1[[System.Collections.Generic.IList`1[[LetsBank.Core.Models.TxnRecordModel, LetsBank.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:00.540 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" in 59.8412ms
+2018-11-04 00:00:00.558 -04:00 [Information] Request finished in 84.6863ms 200 application/json; charset=utf-8
+2018-11-04 00:00:00.668 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/TransactionHistory?_=1541303992187  
+2018-11-04 00:00:00.676 -04:00 [Information] Route matched with "{action = \"TransactionHistory\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)"
+2018-11-04 00:00:00.684 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:00.688 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:00.693 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:00.709 -04:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:00.714 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 21.6209ms.
+2018-11-04 00:00:00.725 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType4`1[[System.Collections.Generic.IList`1[[LetsBank.Core.Models.TxnRecordModel, LetsBank.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:00.729 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" in 49.4724ms
+2018-11-04 00:00:00.737 -04:00 [Information] Request finished in 65.6889ms 200 application/json; charset=utf-8
+2018-11-04 00:00:08.164 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/  
+2018-11-04 00:00:08.170 -04:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)"
+2018-11-04 00:00:08.175 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:08.180 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:08.184 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0175ms.
+2018-11-04 00:00:08.191 -04:00 [Information] Executing ViewResult, running view "Index".
+2018-11-04 00:00:08.200 -04:00 [Information] Executed ViewResult - view "Index" executed in 7.7844ms.
+2018-11-04 00:00:08.208 -04:00 [Information] Executed action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" in 29.4131ms
+2018-11-04 00:00:08.224 -04:00 [Information] Request finished in 48.1707ms 200 text/html; charset=utf-8
+2018-11-04 00:00:08.237 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/css/letsBank.css  
+2018-11-04 00:00:08.243 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/jquery/dist/jquery.min.js  
+2018-11-04 00:00:08.252 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/jquery/dist/jquery.js  
+2018-11-04 00:00:08.259 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/js/letsBank.js  
+2018-11-04 00:00:08.265 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/fontawesome/css/font-awesome.css  
+2018-11-04 00:00:08.276 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-04 00:00:08.286 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-04 00:00:08.293 -04:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\jquery\dist\jquery.min.js"'
+2018-11-04 00:00:08.307 -04:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\js\site.js"'
+2018-11-04 00:00:08.313 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-04 00:00:08.317 -04:00 [Information] Request finished in 49.1026ms 200 application/javascript
+2018-11-04 00:00:08.321 -04:00 [Information] Request finished in 73.6222ms 200 application/javascript
+2018-11-04 00:00:08.324 -04:00 [Information] Sending file. Request path: '"/js/letsBank.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\js\letsBank.js"'
+2018-11-04 00:00:08.331 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/css/site.css  
+2018-11-04 00:00:08.336 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/images/loading.gif  
+2018-11-04 00:00:08.340 -04:00 [Information] Sending file. Request path: '"/css/letsBank.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\css\letsBank.css"'
+2018-11-04 00:00:08.357 -04:00 [Information] Request finished in 116.955ms 200 text/css
+2018-11-04 00:00:08.364 -04:00 [Information] Request finished in 103.4568ms 200 application/javascript
+2018-11-04 00:00:08.379 -04:00 [Information] Sending file. Request path: '"/images/loading.gif"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\images\loading.gif"'
+2018-11-04 00:00:08.391 -04:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\jquery\dist\jquery.js"'
+2018-11-04 00:00:08.403 -04:00 [Information] Request finished in 161.4986ms 200 image/gif
+2018-11-04 00:00:08.410 -04:00 [Information] Request finished in 155.87ms 200 application/javascript
+2018-11-04 00:00:08.428 -04:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\css\site.css"'
+2018-11-04 00:00:08.436 -04:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+2018-11-04 00:00:08.439 -04:00 [Information] Request finished in 201.1237ms 200 text/css
+2018-11-04 00:00:08.444 -04:00 [Information] Request finished in 197.4669ms 200 application/javascript
+2018-11-04 00:00:08.448 -04:00 [Information] Sending file. Request path: '"/lib/fontawesome/css/font-awesome.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\fontawesome\css\font-awesome.css"'
+2018-11-04 00:00:08.454 -04:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+2018-11-04 00:00:08.457 -04:00 [Information] Request finished in 227.4614ms 200 text/css
+2018-11-04 00:00:08.461 -04:00 [Information] Request finished in 230.7905ms 200 text/css
+2018-11-04 00:00:08.553 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/AccountBalance?_=1541304008465  
+2018-11-04 00:00:08.558 -04:00 [Information] Route matched with "{action = \"AccountBalance\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)"
+2018-11-04 00:00:08.563 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:08.567 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:08.572 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:08.590 -04:00 [Information] Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:08.592 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/favicon.ico  
+2018-11-04 00:00:08.597 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 24.7341ms.
+2018-11-04 00:00:08.613 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType3`1[[System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:08.624 -04:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\favicon.ico"'
+2018-11-04 00:00:08.633 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)" in 56.9768ms
+2018-11-04 00:00:08.642 -04:00 [Information] Request finished in 38.627ms 200 image/x-icon
+2018-11-04 00:00:08.647 -04:00 [Information] Request finished in 87.8153ms 200 application/json; charset=utf-8
+2018-11-04 00:00:09.291 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/TransactionHistory?_=1541304008466  
+2018-11-04 00:00:09.297 -04:00 [Information] Route matched with "{action = \"TransactionHistory\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)"
+2018-11-04 00:00:09.302 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:09.308 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:09.312 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:09.321 -04:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:09.326 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 14.27ms.
+2018-11-04 00:00:09.333 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType4`1[[System.Collections.Generic.IList`1[[LetsBank.Core.Models.TxnRecordModel, LetsBank.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:09.338 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" in 35.9627ms
+2018-11-04 00:00:09.342 -04:00 [Information] Request finished in 50.5807ms 200 application/json; charset=utf-8
+2018-11-04 00:00:10.839 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/TransactionHistory?_=1541304008467  
+2018-11-04 00:00:10.846 -04:00 [Information] Route matched with "{action = \"TransactionHistory\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)"
+2018-11-04 00:00:10.854 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:10.860 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:10.866 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:10.873 -04:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:10.879 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 14.2706ms.
+2018-11-04 00:00:10.883 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType4`1[[System.Collections.Generic.IList`1[[LetsBank.Core.Models.TxnRecordModel, LetsBank.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:10.887 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" in 37.5195ms
+2018-11-04 00:00:10.899 -04:00 [Information] Request finished in 53.3992ms 200 application/json; charset=utf-8
+2018-11-04 00:00:11.336 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/TransactionHistory?_=1541304008468  
+2018-11-04 00:00:11.342 -04:00 [Information] Route matched with "{action = \"TransactionHistory\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)"
+2018-11-04 00:00:11.346 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:11.356 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:11.362 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:11.372 -04:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:11.377 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 16.258ms.
+2018-11-04 00:00:11.383 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType4`1[[System.Collections.Generic.IList`1[[LetsBank.Core.Models.TxnRecordModel, LetsBank.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:11.388 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.TransactionHistory (LetsBank.Web)" in 41.4031ms
+2018-11-04 00:00:11.396 -04:00 [Information] Request finished in 59.7235ms 200 application/json; charset=utf-8
+2018-11-04 00:00:18.137 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/  
+2018-11-04 00:00:18.142 -04:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)"
+2018-11-04 00:00:18.146 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:18.151 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:18.157 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0471ms.
+2018-11-04 00:00:18.163 -04:00 [Information] Executing ViewResult, running view "Index".
+2018-11-04 00:00:18.177 -04:00 [Information] Executed ViewResult - view "Index" executed in 7.9528ms.
+2018-11-04 00:00:18.201 -04:00 [Information] Executed action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" in 35.6665ms
+2018-11-04 00:00:18.207 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/css/site.css  
+2018-11-04 00:00:18.221 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/css/letsBank.css  
+2018-11-04 00:00:18.229 -04:00 [Information] Request finished in 71.7048ms 200 text/html; charset=utf-8
+2018-11-04 00:00:18.235 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/jquery/dist/jquery.js  
+2018-11-04 00:00:18.239 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/fontawesome/css/font-awesome.css  
+2018-11-04 00:00:18.251 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-04 00:00:18.261 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/jquery/dist/jquery.min.js  
+2018-11-04 00:00:18.264 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-04 00:00:18.270 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/images/loading.gif  
+2018-11-04 00:00:18.279 -04:00 [Information] Sending file. Request path: '"/images/loading.gif"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\images\loading.gif"'
+2018-11-04 00:00:18.287 -04:00 [Information] Sending file. Request path: '"/lib/fontawesome/css/font-awesome.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\fontawesome\css\font-awesome.css"'
+2018-11-04 00:00:18.304 -04:00 [Information] Sending file. Request path: '"/css/letsBank.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\css\letsBank.css"'
+2018-11-04 00:00:18.315 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-04 00:00:18.321 -04:00 [Information] Request finished in 103.192ms 200 text/css
+2018-11-04 00:00:18.331 -04:00 [Information] Request finished in 87.6744ms 200 text/css
+2018-11-04 00:00:18.346 -04:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+2018-11-04 00:00:18.357 -04:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\js\site.js"'
+2018-11-04 00:00:18.363 -04:00 [Information] Request finished in 111.8416ms 200 application/javascript
+2018-11-04 00:00:18.369 -04:00 [Information] Request finished in 77.4102ms 200 application/javascript
+2018-11-04 00:00:18.404 -04:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\jquery\dist\jquery.js"'
+2018-11-04 00:00:18.410 -04:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+2018-11-04 00:00:18.414 -04:00 [Information] Request finished in 201.1358ms 200 application/javascript
+2018-11-04 00:00:18.418 -04:00 [Information] Request finished in 209.0508ms 200 text/css
+2018-11-04 00:00:18.421 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/js/letsBank.js  
+2018-11-04 00:00:18.425 -04:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\jquery\dist\jquery.min.js"'
+2018-11-04 00:00:18.432 -04:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\css\site.css"'
+2018-11-04 00:00:18.437 -04:00 [Information] Request finished in 225.4108ms 200 application/javascript
+2018-11-04 00:00:18.443 -04:00 [Information] Sending file. Request path: '"/js/letsBank.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\js\letsBank.js"'
+2018-11-04 00:00:18.450 -04:00 [Information] Request finished in 231.6072ms 200 text/css
+2018-11-04 00:00:18.455 -04:00 [Information] Request finished in 164.4677ms 200 application/javascript
+2018-11-04 00:00:18.467 -04:00 [Information] Request finished in 81.405ms 200 image/gif
+2018-11-04 00:00:18.552 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/AccountManagement/AccountBalance?_=1541304018459  
+2018-11-04 00:00:18.558 -04:00 [Information] Route matched with "{action = \"AccountBalance\", controller = \"AccountManagement\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)"
+2018-11-04 00:00:18.564 -04:00 [Information] Authorization was successful.
+2018-11-04 00:00:18.570 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)" - Validation state: Valid
+2018-11-04 00:00:18.576 -04:00 [Information] Entity Framework Core "2.1.1-rtm-30846" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-11-04 00:00:18.587 -04:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+2018-11-04 00:00:18.593 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/favicon.ico  
+2018-11-04 00:00:18.596 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 19.338ms.
+2018-11-04 00:00:18.611 -04:00 [Information] Executing JsonResult, writing value of type '"<>f__AnonymousType3`1[[System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-11-04 00:00:18.617 -04:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\favicon.ico"'
+2018-11-04 00:00:18.621 -04:00 [Information] Executed action "LetsBank.Web.Controllers.AccountManagementController.AccountBalance (LetsBank.Web)" in 54.7242ms
+2018-11-04 00:00:18.630 -04:00 [Information] Request finished in 31.394ms 200 image/x-icon
+2018-11-04 00:00:18.636 -04:00 [Information] Request finished in 75.8483ms 200 application/json; charset=utf-8
+2018-11-04 00:00:20.945 -04:00 [Information] Request starting HTTP/1.1 POST http://localhost:44313/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2018-11-04 00:00:20.968 -04:00 [Information] Route matched with "{page = \"/Account/Logout\", area = \"Identity\", action = \"\", controller = \"\"}". Executing action "/Account/Logout"
+2018-11-04 00:00:20.976 -04:00 [Information] Executing handler method "OnPost" with arguments (["/"]) - ModelState is Valid
+2018-11-04 00:00:20.989 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2018-11-04 00:00:20.995 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2018-11-04 00:00:21.001 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2018-11-04 00:00:21.006 -04:00 [Information] User logged out.
+2018-11-04 00:00:21.011 -04:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2018-11-04 00:00:21.023 -04:00 [Information] Executed action "/Account/Logout" in 43.05ms
+2018-11-04 00:00:21.028 -04:00 [Information] Request finished in 84.6881ms 302 
+2018-11-04 00:00:21.035 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/  
+2018-11-04 00:00:21.040 -04:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)"
+2018-11-04 00:00:21.047 -04:00 [Information] Authorization failed.
+2018-11-04 00:00:21.052 -04:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2018-11-04 00:00:21.057 -04:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2018-11-04 00:00:21.062 -04:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2018-11-04 00:00:21.066 -04:00 [Information] Executed action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" in 22.0144ms
+2018-11-04 00:00:21.070 -04:00 [Information] Request finished in 36.0167ms 302 
+2018-11-04 00:00:21.078 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/Identity/Account/Login?ReturnUrl=%2F  
+2018-11-04 00:00:21.083 -04:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing action "/Account/Login"
+2018-11-04 00:00:21.088 -04:00 [Information] Executing handler method "OnGetAsync" with arguments (["/"]) - ModelState is Valid
+2018-11-04 00:00:21.092 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2018-11-04 00:00:21.101 -04:00 [Information] Executed action "/Account/Login" in 12.5205ms
+2018-11-04 00:00:21.108 -04:00 [Information] Request finished in 27.9925ms 200 text/html; charset=utf-8
+2018-11-04 00:00:51.284 -04:00 [Information] User profile is available. Using '"C:\Users\mselvamoorthy\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-04 00:00:52.371 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/Identity/Account/Login  
+2018-11-04 00:00:52.371 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/Identity/Account/Login?ReturnUrl=%2F  
+2018-11-04 00:00:52.938 -04:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing action "/Account/Login"
+2018-11-04 00:00:52.939 -04:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing action "/Account/Login"
+2018-11-04 00:00:53.500 -04:00 [Information] Executing handler method "OnGetAsync" with arguments (["/"]) - ModelState is Valid
+2018-11-04 00:00:53.500 -04:00 [Information] Executing handler method "OnGetAsync" with arguments ([""]) - ModelState is Valid
+2018-11-04 00:00:53.528 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2018-11-04 00:00:53.528 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2018-11-04 00:00:53.822 -04:00 [Information] Executed action "/Account/Login" in 877.5663ms
+2018-11-04 00:00:53.822 -04:00 [Information] Executed action "/Account/Login" in 876.859ms
+2018-11-04 00:00:53.834 -04:00 [Information] Request finished in 1465.9335ms 200 text/html; charset=utf-8
+2018-11-04 00:00:53.834 -04:00 [Information] Request finished in 1465.9369ms 200 text/html; charset=utf-8

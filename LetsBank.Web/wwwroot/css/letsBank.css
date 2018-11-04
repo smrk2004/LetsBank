@@ -1,0 +1,60 @@
+﻿.hiddenNone {
+    display: none !important; /* does Not take up space, plus hidden */
+}
+
+.hiddenVisibility {
+    visibility: hidden !important; /* takes up same space as bef, plus hidden */
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+#bankOpsSpinnerContainer {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 50%;
+}
+
+#feedback {
+    color: red;
+}
+
+#outputDiv {
+    border: 0 none solid black;
+    overflow-wrap: break-word;
+    padding: 0;
+    outline: none;
+    height: auto;
+}
+
+#depositBtn {
+    background-color: #006600;
+    color: white;
+}
+#withdrawalBtn {
+    background-color: #660000;
+    color: white;
+}
+
+#depositBtn, #withdrawalBtn {
+    margin-right: 2em;
+}
+
+#clearBtn {
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 700;
+    border-color: #660000;
+    border-width: thin;
+    margin-left: 2em;
+}
+
+#txnHeaderRow > th,
+.txnRecordRow > td {
+    padding-right: 1em;
+}

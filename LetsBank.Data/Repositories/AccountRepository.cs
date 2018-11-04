@@ -34,7 +34,10 @@ namespace LetsBank.Data.Repositories
 											.FirstOrDefault(acc => acc.Id == updated.Id);
 			if (old != null)
 			{
-				old = updated;
+				old.Id		= updated.Id;
+				old.UserId	= updated.UserId;
+
+				old.Balance = updated.Balance;  // This is the only property we actually care about, from users' point of view!
 			}
 		}
 

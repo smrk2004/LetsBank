@@ -153,7 +153,7 @@ namespace LetsBank.ConsoleApp
 
 			Console.WriteLine("Please enter Password:");
 			Console.WriteLine("[");
-			Console.WriteLine("Minimum eight and maximum 15 characters			");
+			Console.WriteLine("Minimum eight characters							");
 			Console.WriteLine("		At least one uppercase letter,				");
 			Console.WriteLine("				 one lowercase letter,				");
 			Console.WriteLine("				 one number				&			");
@@ -271,7 +271,7 @@ namespace LetsBank.ConsoleApp
 
 				foreach (var rec in transactionHistory)
 				{
-					Console.WriteLine("[ " + rec.Type.ToString() + " ] :: [Amount = " + rec.Amount + "] :: [Final-Balance = " + rec.FinalBalance + "] on " + rec.Date);
+					Console.WriteLine("[ " + rec.Type.ToString() + " ] :: [Amount = " + rec.Amount + "] :: [Initial-Balance = " + rec.InitialBalance + "]" + " -> " + "[Final-Balance = " + rec.FinalBalance + "] on " + rec.Date);
 				}
 			}
 			else

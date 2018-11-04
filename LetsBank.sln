@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsBank.Web", "LetsBank.Web\LetsBank.Web.csproj", "{7693C5D6-D020-45AD-9E73-8F6F58C66896}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsBank.Web", "LetsBank.Web\LetsBank.Web.csproj", "{799E1FED-A7B6-4C97-8A69-8FF41036D3D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsBank.Core", "LetsBank.Core\LetsBank.Core.csproj", "{B5928BEC-F068-4479-9C8A-1615CD32868B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsBank.Core", "LetsBank.Core\LetsBank.Core.csproj", "{B5928BEC-F068-4479-9C8A-1615CD32868B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsBank.Data", "LetsBank.Data\LetsBank.Data.csproj", "{F44B1674-5B94-47A2-B51E-8976C7817F98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsBank.Data", "LetsBank.Data\LetsBank.Data.csproj", "{F44B1674-5B94-47A2-B51E-8976C7817F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsBank.Infrastructure", "LetsBank.Infrastructure\LetsBank.Infrastructure.csproj", "{5DA2528D-4ABE-4CC6-B820-E00AE9C760FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsBank.Infrastructure", "LetsBank.Infrastructure\LetsBank.Infrastructure.csproj", "{5DA2528D-4ABE-4CC6-B820-E00AE9C760FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsBank.ConsoleApp", "LetsBank.ConsoleApp\LetsBank.ConsoleApp.csproj", "{140DF089-73CD-4B60-93E4-877E55FD2016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsBank.ConsoleApp", "LetsBank.ConsoleApp\LetsBank.ConsoleApp.csproj", "{140DF089-73CD-4B60-93E4-877E55FD2016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7693C5D6-D020-45AD-9E73-8F6F58C66896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7693C5D6-D020-45AD-9E73-8F6F58C66896}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7693C5D6-D020-45AD-9E73-8F6F58C66896}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7693C5D6-D020-45AD-9E73-8F6F58C66896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799E1FED-A7B6-4C97-8A69-8FF41036D3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799E1FED-A7B6-4C97-8A69-8FF41036D3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799E1FED-A7B6-4C97-8A69-8FF41036D3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799E1FED-A7B6-4C97-8A69-8FF41036D3D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B5928BEC-F068-4479-9C8A-1615CD32868B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5928BEC-F068-4479-9C8A-1615CD32868B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5928BEC-F068-4479-9C8A-1615CD32868B}.Release|Any CPU.ActiveCfg = Release|Any CPU

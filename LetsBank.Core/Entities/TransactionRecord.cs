@@ -16,6 +16,9 @@ namespace LetsBank.Core.Entities
 		public TransactionType Type { get; set; } = TransactionType.Deposit;
 
 		[Required]
+		public decimal InitialBalance { get; set; }
+
+		[Required]
 		public decimal FinalBalance { get; set; }
 
 		public DateTime Date { get; set; } = DateTime.Now;

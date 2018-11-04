@@ -11,6 +11,7 @@ namespace LetsBank.Infrastructure.Services
 	public class LoginService : ILoginService
 	{
 		// NOTE: NOT using Dependency Injection here, since we are NOT using a DB + are using service' in-memory state, both from Web & ConsoleApp interfaces; also due to same reason state will NOT persist between console & webapp sessions + will be zero'd when app is restarted.
+		// NOTE2: After Identity began to be used for Login, Logout & Registration this service is redundant wrt WebApp; however ConsoleApp relies on it directly
 		private readonly IUserRepository userRepo = new UserRepository();
 		private Guid loggedInUserId = Guid.Empty;
 

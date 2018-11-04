@@ -54,16 +54,17 @@ namespace LetsBank.Infrastructure.Services
 			// Prepare transactionRec + account
 			var transactionRec = new TransactionRecord
 									{
-										AccountId	= account.Id,
-										Amount		= amount,
-										Type		= TransactionType.Deposit,
-										FinalBalance= account.Balance + amount,
+										AccountId		= account.Id,
+										Amount			= amount,
+										Type			= TransactionType.Deposit,
+										InitialBalance	= account.Balance,
+										FinalBalance	= account.Balance + amount,
 									};
 
+			// Update account data store
 				account.Balance += amount;
 
-			// Update to data store
-				accountRepo.Update(account);
+			// Update history data store
 				transactionRecordRepo.Add(transactionRec);
 
 			return true;
@@ -80,17 +81,18 @@ namespace LetsBank.Infrastructure.Services
 			// Prepare transactionRec + account
 			var transactionRec = new TransactionRecord
 									{
-										AccountId	= account.Id,
-										Amount		= amount,
-										Type		= TransactionType.Withdrawal,
-										FinalBalance= account.Balance - amount,
+										AccountId		= account.Id,
+										Amount			= amount,
+										Type			= TransactionType.Withdrawal,
+										InitialBalance	= account.Balance,
+										FinalBalance	= account.Balance - amount,
 									};
 
-			account.Balance -= amount;
+			// Update account data store
+				account.Balance -= amount;
 
-			// Update to data store
-			accountRepo.Update(account);
-			transactionRecordRepo.Add(transactionRec);
+			// Update history data store
+				transactionRecordRepo.Add(transactionRec);
 
 			return true;
 		}

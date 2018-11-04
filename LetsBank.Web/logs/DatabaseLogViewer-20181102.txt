@@ -1,0 +1,52 @@
+2018-11-02 23:58:02.059 -04:00 [Information] User profile is available. Using '"C:\Users\mselvamoorthy\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-02 23:58:03.059 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/  
+2018-11-02 23:58:03.059 -04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:60612/  0
+2018-11-02 23:58:03.138 -04:00 [Information] Request finished in 69.9959ms 200 
+2018-11-02 23:58:03.423 -04:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)"
+2018-11-02 23:58:03.677 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" - Validation state: Valid
+2018-11-02 23:58:03.692 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.2415ms.
+2018-11-02 23:58:03.768 -04:00 [Information] Executing ViewResult, running view "Index".
+2018-11-02 23:58:04.061 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/css/site.css  
+2018-11-02 23:58:04.063 -04:00 [Information] Executed ViewResult - view "Index" executed in 290.0093ms.
+2018-11-02 23:58:04.081 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-02 23:58:04.099 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/css/letsBank.css  
+2018-11-02 23:58:04.103 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/images/loading.gif  
+2018-11-02 23:58:04.108 -04:00 [Information] Executed action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" in 674.8811ms
+2018-11-02 23:58:04.122 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/jquery/dist/jquery.min.js  
+2018-11-02 23:58:04.131 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/fontawesome/css/font-awesome.css  
+2018-11-02 23:58:04.143 -04:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-11-02 23:58:04.149 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/js/letsBank.js  
+2018-11-02 23:58:04.159 -04:00 [Information] The file "/css/site.css" was not modified
+2018-11-02 23:58:04.188 -04:00 [Information] Sending file. Request path: '"/js/letsBank.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\js\letsBank.js"'
+2018-11-02 23:58:04.195 -04:00 [Information] Request finished in 137.5916ms 304 text/css
+2018-11-02 23:58:04.204 -04:00 [Information] Request finished in 52.2608ms 200 application/javascript
+2018-11-02 23:58:04.207 -04:00 [Information] Request finished in 138.4817ms 304 text/css
+2018-11-02 23:58:04.214 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-02 23:58:04.220 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/lib/jquery/dist/jquery.js  
+2018-11-02 23:58:04.225 -04:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-11-02 23:58:04.230 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-02 23:58:04.233 -04:00 [Information] Request finished in 20.2136ms 304 application/javascript
+2018-11-02 23:58:04.251 -04:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-11-02 23:58:04.257 -04:00 [Information] The file "/js/site.js" was not modified
+2018-11-02 23:58:04.278 -04:00 [Information] Request finished in 47.6059ms 304 application/javascript
+2018-11-02 23:58:04.290 -04:00 [Information] Request finished in 42.8407ms 304 application/javascript
+2018-11-02 23:58:04.302 -04:00 [Information] Request finished in 1201.4583ms 200 text/html; charset=utf-8
+2018-11-02 23:58:04.407 -04:00 [Information] Sending file. Request path: '"/css/letsBank.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\css\letsBank.css"'
+2018-11-02 23:58:04.456 -04:00 [Information] Sending file. Request path: '"/images/loading.gif"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\images\loading.gif"'
+2018-11-02 23:58:04.502 -04:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\jquery\dist\jquery.min.js"'
+2018-11-02 23:58:04.542 -04:00 [Information] Sending file. Request path: '"/lib/fontawesome/css/font-awesome.css"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\lib\fontawesome\css\font-awesome.css"'
+2018-11-02 23:58:04.549 -04:00 [Information] Request finished in 457.7783ms 200 image/gif
+2018-11-02 23:58:04.570 -04:00 [Information] Request finished in 426.2997ms 200 application/javascript
+2018-11-02 23:58:04.573 -04:00 [Information] Request finished in 444.312ms 200 text/css
+2018-11-02 23:58:04.580 -04:00 [Information] Request finished in 419.3007ms 200 text/css
+2018-11-02 23:58:10.359 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/  
+2018-11-02 23:58:10.364 -04:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)"
+2018-11-02 23:58:10.369 -04:00 [Information] Executing action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" - Validation state: Valid
+2018-11-02 23:58:10.372 -04:00 [Information] Executed action method "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1253ms.
+2018-11-02 23:58:10.376 -04:00 [Information] Executing ViewResult, running view "Index".
+2018-11-02 23:58:10.382 -04:00 [Information] Executed ViewResult - view "Index" executed in 6.3315ms.
+2018-11-02 23:58:10.385 -04:00 [Information] Executed action "LetsBank.Web.Controllers.HomeController.Index (LetsBank.Web)" in 18.1003ms
+2018-11-02 23:58:10.389 -04:00 [Information] Request finished in 30.9446ms 200 text/html; charset=utf-8
+2018-11-02 23:58:10.494 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44313/favicon.ico  
+2018-11-02 23:58:10.505 -04:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\projects.git\LetsBank\LetsBank.Web\wwwroot\favicon.ico"'
+2018-11-02 23:58:10.514 -04:00 [Information] Request finished in 14.2329ms 200 image/x-icon
